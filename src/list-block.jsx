@@ -58,7 +58,7 @@ export default function ListBlock({ img, description, title, reverse }) {
         top="0"
         left={!reverse && "86%"}
         right={reverse && "86%"}
-        opacity="1"
+        opacity="0"
         translateX="0"
         sx={{ transition: "all 350ms ease-in-out" }}
         rounded={reverse ? "25px 0 0 25px" : "0 25px 25px 0"}

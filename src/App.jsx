@@ -41,7 +41,7 @@ export default function App() {
       bgImg="linear-gradient(to top, #6a11cb 0%, #2575fc 100%)"
     >
       <VStack w="75%" h="90%" rounded="2xl" justifyContent="space-between">
-        <HStack w="100%" h="24%">
+        <HStack w="100%" h="22%">
           <Flex w="20%" h="100%" p="5px" rounded="25px">
             <Image
               src={mysteryBox}
@@ -65,7 +65,7 @@ export default function App() {
             </Text>
           </VStack>
         </HStack>
-        <HStack w="100%" h="74%" spacing={3}>
+        <HStack w="100%" h="76%" spacing={3}>
           <VStack
             w="42%"
             h="100%"
