@@ -49,7 +49,7 @@ export default function ListBlock({ img, description, title, reverse }) {
       </VStack>{" "}
       <Box
         className="description"
-        w="187%"
+        w="190%"
         h="100%"
         p="15px 10px"
         pl={reverse && "20px"}
@@ -58,12 +58,18 @@ export default function ListBlock({ img, description, title, reverse }) {
         top="0"
         left={!reverse && "86%"}
         right={reverse && "86%"}
-        opacity="0"
+        opacity="1"
         translateX="0"
         sx={{ transition: "all 350ms ease-in-out" }}
         rounded={reverse ? "25px 0 0 25px" : "0 25px 25px 0"}
       >
-        <List fontSize="20px">
+        <List
+          fontSize="20px"
+          as={VStack}
+          justifyContent="center"
+          alignItems="start"
+          spacing={0}
+        >
           {description.map((p, index) => (
             <ListItem key={p + index}>
               <ListIcon as={CheckIcon} color="#2FEB2F" />
