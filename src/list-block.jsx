@@ -49,7 +49,7 @@ export default function ListBlock({ img, description, title, reverse }) {
       </VStack>{" "}
       <Box
         className="description"
-        w="185%"
+        w="187%"
         h="100%"
         p="15px 10px"
         pl={reverse && "20px"}
