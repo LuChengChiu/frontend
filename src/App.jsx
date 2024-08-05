@@ -1,5 +1,4 @@
 import {
-  Box,
   Center,
   Image,
   HStack,
@@ -14,7 +13,6 @@ import bone from "/bone.png";
 import clothes from "/clothes.png";
 import nerve from "/brain.png";
 import counter from "/counter.png";
-import gift from "/gift.png";
 import ListBlock from "./list-block";
 
 export default function App() {
@@ -34,13 +32,6 @@ export default function App() {
   ];
 
   const floatingAnimation = keyframes`0% { transform: translateY(-5px) } 50% { transform: translateY(12px) } 100% { transform: translateY(-5px); }`;
-  const shakeAnimation = keyframes`
-  0% { transform: translateX(0); }
-  25% { transform: translateX(-5px); }
-  50% { transform: translateX(5px); }
-  75% { transform: translateX(-5px); }
-  100% { transform: translateX(0); }
-`;
   return (
     <Center
       as={VStack}

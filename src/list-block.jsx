@@ -21,10 +21,8 @@ export default function ListBlock({ img, description, title, reverse }) {
       alignSelf={reverse && "end"}
       rounded="25px"
       pos="relative"
-      // left={!reverse && "70px"}
       left={!reverse && "18%"}
       right={reverse && "18%"}
-      // right={reverse && "70px"}
       _hover={{
         rounded: reverse ? "0 25px 25px 0" : "25px 0 0 25px",
         left: !reverse && "0px",
