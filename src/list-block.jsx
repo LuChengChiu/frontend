@@ -64,7 +64,7 @@ export default function ListBlock({ img, description, title, reverse }) {
         rounded={reverse ? "25px 0 0 25px" : "0 25px 25px 0"}
       >
         <List
-          fontSize="20px"
+          fontSize="18px"
           as={VStack}
           justifyContent="center"
           alignItems="start"
